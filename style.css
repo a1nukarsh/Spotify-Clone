@@ -2,8 +2,22 @@
     margin: 0;
     padding: 0;
 }
-
+/* 
 body{
     background-color: black;
     color: white;
-}
+} */
+ .main{
+    border: 2px solid blue;
+    display: flex;
+ }
+ .left{
+    border: 2px solid red;
+    width: 25vw;
+    height: 100px;
+ }
+ .right{
+    border: 2px solid green;
+    height: 100px;
+    width: 75vw;
+ }
