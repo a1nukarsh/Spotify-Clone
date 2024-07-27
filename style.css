@@ -17,7 +17,7 @@
  } */
  .left{
     margin: 4px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     width: 25vw;
     height: 100px;
     padding: 21px;
@@ -26,7 +26,7 @@
  }
  .right{
     margin: 4px;
-    border: 2px solid green;
+    /* border: 2px solid green; */
     height: 100px;
     width: 75vw;
     color: white;

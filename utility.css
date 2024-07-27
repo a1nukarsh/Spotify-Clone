@@ -1,5 +1,5 @@
 .border{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     margin: 3px;
 }
 .flex{
@@ -19,8 +19,11 @@
     filter: invert(1);
 }
 .bg-grey{
-    background-color: #121212;
+    background-color: #262626;
 }
 .rounded{
     border-radius: 7px;
+}
+.m-1{
+    margin: 5px;
 }
