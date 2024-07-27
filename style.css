@@ -16,24 +16,28 @@
     filter: invert(1);
  } */
  .left{
-    margin: 4px;
+    /* margin: 4px; */
     /* border: 2px solid red; */
     width: 25vw;
-    height: 100px;
-    padding: 21px;
+    /* height: 100px; */
+    padding: 10px;
     /* background-color: #121212;
     color: white; */
  }
  .right{
     margin: 4px;
     /* border: 2px solid green; */
-    height: 100px;
+    /* height: 100px; */
     width: 75vw;
     color: white;
+ }
+ .home{
+   padding: 10px;
  }
  .home ul li{
     gap: 15px;
     display: flex;
-    width: 21px;
+    width: 14px;
     list-style: none;
+    padding-top: 11px;
  }
