@@ -78,9 +78,16 @@ body{
  .right{
    padding: 5px;
    width: 75vw;
-    margin: 4px;
+    margin: 10px 0 ;
     /* border: 2px solid green; */
     /* height: 100px; */
     /* width: 75vw; */
     color: white;
+ }
+ .header{
+   display: flex;
+   justify-content: space-between;
+ }
+ .header > *{
+   padding: 18px;
  }
