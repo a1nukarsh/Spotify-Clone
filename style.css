@@ -17,9 +17,7 @@ body{
  .logo img{
    width: 108px;
  }
- /* .invert{
-    filter: invert(1);
- } */
+/* LEFT SIDE */
  .left{
     /* margin: 4px; */
     /* border: 2px solid red; */
@@ -74,7 +72,7 @@ body{
  .footer a{
    color: grey;
  }
-
+/* RIGHT SIDE */
  .right{
    padding: 5px;
    width: 75vw;
@@ -91,4 +89,7 @@ body{
  }
  .header > *{
    padding: 18px;
+ }
+ .sptfy-plylsts{
+   padding: 11px;
  }
