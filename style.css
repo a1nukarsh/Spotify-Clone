@@ -93,3 +93,23 @@ body{
  .sptfy-plylsts{
    padding: 11px;
  }
+ .card-container{
+   display: flex;
+   flex-wrap: wrap;
+   gap: 10px;
+   margin: 11px;
+ }
+ .card{
+   width: 207px;
+   overflow: hidden;
+   padding: 10px;
+   border-radius: 7px;
+   background-color: rgb(45, 45, 45);
+ }
+ .card img{
+   width: 100%;
+   object-fit: contain;
+ }
+ .card > *{
+   padding-top: 3px;
+ }
