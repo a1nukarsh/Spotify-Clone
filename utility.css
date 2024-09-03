@@ -1,3 +1,36 @@
+/* Apply custom scrollbar styles to the whole page */
+::-webkit-scrollbar {
+    width: 12px; /* Width of the scrollbar */
+    display: none;
+}
+
+::-webkit-scrollbar-track {
+    background: #333; /* Track (progress bar) background color */
+}
+
+::-webkit-scrollbar-thumb {
+    background: #555; /* Scrollbar thumb (handle) color */
+    border-radius: 10px; /* Roundness of the scrollbar handle */
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #777; /* Color when hovering over the scrollbar handle */
+}
+
+/* Apply custom scrollbar styles to specific elements */
+.element {
+    /* Replace `.element` with your specific class or ID */
+    overflow-y: scroll; /* Ensure scrollbars are visible */
+}
+
+/* For Firefox */
+.scrollable-element {
+    scrollbar-width: thin; /* Options: auto | thin | none */
+    scrollbar-color: #555 #333; /* Thumb and track color */
+}
+
+
+
 .border{
     border: 2px solid red;
     margin: 3px;

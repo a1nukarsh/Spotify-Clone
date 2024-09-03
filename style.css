@@ -98,22 +98,25 @@ body{
    flex-wrap: wrap;
    gap: 10px;
    margin: 11px;
+   width: 85%;
+   max-height: 72vh;
+   overflow-y: scroll;
+   
  }
  .card{
-   width: 207px;
+   width: 160px;
    overflow: hidden;
    padding: 10px;
    border-radius: 7px;
    background-color: rgb(45, 45, 45);
    position: relative;
+   margin: 3px;
  }
  .card img{
    width: 100%;
    object-fit: contain;
  }
- /* .card > *{
-   padding-top: 3px;
- } */
+
  .play{
    width: 45px; 
     height: 45px; 
