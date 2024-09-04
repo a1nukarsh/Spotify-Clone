@@ -81,6 +81,7 @@ body {
   /* height: 100px; */
   /* width: 75vw; */
   color: white;
+  position: relative;
 }
 .header {
   display: flex;
@@ -166,4 +167,16 @@ body {
   transition: all 1s ease-out;
 }
 
-
+.playbar{
+   background-color: green;
+   position: absolute;
+   bottom: 0;
+   width: 100%;
+   padding: 12px;
+}
+.song-buttons{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 12px;
+}
