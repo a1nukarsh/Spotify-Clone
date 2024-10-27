@@ -5,6 +5,7 @@ async function main(){
     let response = await a.text()
     console.log(response)
     let element = document.createElement("div")
+    console.log("Heleo")
 }
 
 main()
